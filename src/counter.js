@@ -144,4 +144,23 @@ export function setupCounter() {
 //  console.log(anagram(['anagram','nagaram']));
 
 
+/* Isomorphic strings */
+
+// function isomorphic(s,t) {
+//   let mapStoT = {};
+//   let mapTtoS = {};
+//   for(let i=0; i<s.length; i++) {
+//     if(!mapTtoS[t[i]] && !mapStoT[s[i]]) {
+//       mapStoT[s[i]] = t[i];
+//       mapTtoS[t[i]] = s[i];
+//     }
+//     else if(mapStoT[s[i]] != t[i] || mapTtoS[t[i]]!==s[i]) {
+//       return false;
+//     }
+//   }
+//  return true;
+   
+//  }
+// console.log(isomorphic('paper','title'));
+
 }
