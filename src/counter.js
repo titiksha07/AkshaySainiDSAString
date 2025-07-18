@@ -85,4 +85,38 @@ export function setupCounter() {
 //     }
 //     return s.join('');
 // };
+
+/*Largest Odd in a string */
+
+// function largestOdd(str) {
+//   for(let i=str.length-1; i>=0; i--) {
+//     if(parseInt(str[i]) % 2 !==0) {
+//       str = str.slice(0,i+1);
+//       break;
+//     }
+//   }
+//   return str;
+  
+// }
+// console.log(largestOdd(largestOdd('32456')));
+
+/*Longest Common Prefix */
+
+// function longestCommonPrefix(str) {
+//   let x = 0;
+//   while(x<= str[0].length) {
+//     let ch = str[0][x];
+//     for(let i=1; i<str.length; i++) {
+//       if(ch !== str[i][x] || x=== str[i].length) {
+//         return str[0].slice(0,x);
+//       }
+//     }
+//     x++;
+//   }
+//   return str[0];
+  
+// }
+// console.log(longestCommonPrefix(['flower','flow','flosh']));
+
+
 }
